@@ -4,6 +4,6 @@ COPY requirements.txt .
 
 RUN pip install -r requirements.txt
 
-ENTRYPOINT ["mlflow", "server", "-h", "0.0.0.0"]
+ENTRYPOINT ["mlflow", "server"]
 
 EXPOSE 5000
